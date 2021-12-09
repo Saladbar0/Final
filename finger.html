@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CandyFinger</title>
+  <link rel="stylesheet" href="Styles.css">
+  <link href="http://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- Border decoration !-->
+    <div class="fingerborder1">
+    </div>
+
+    <div class="fingerborder2">
+    </div>
+
+    <div class="fingerborder3">
+    </div>
+
+    <div class="fingerborder4">
+    </div>
+
+    <button class="fingerback" onclick="window.location.href='index.html'">Back</button>
+
+
+<style>
+
+    body {
+      margin: 0;
+      padding: 0;
+      color: magenta;
+      font-family: arial;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    h1 {
+      font-size: 45px;
+    }
+
+    .container  {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    #gameboard {
+      width: 450px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      height: 150px;
+      width: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: magenta;
+      font-size: 150px;
+    }
+
+  #restartFinger {
+    font-family: 'Common Pixel', sans-serif;
+    background-color: magenta;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 4px;
+    font-size: 50px;
+    position: absolute;
+    left: 680px;
+    top: 810px;
+    box-shadow: 0 0 40px 5px magenta;
+    z-index: 1;
+  }
+
+  #playText {
+    font-family: 'Common Pixel', sans-serif;
+  }
+</style>
+
+
+
+
+<!-- Tic Tac Toe Game !-->
+<button id="restartFinger">Try Again!</button>
+<div class = "container">
+  <h1 id="playText">Candy Finger</h1>
+  <div id="gameboard">
+      <div class="box" id="0"></div>
+      <div class="box" id="1"></div>
+      <div class="box" id="2"></div>
+      <div class="box" id="3"></div>
+      <div class="box" id="4"></div>
+      <div class="box" id="5"></div>
+      <div class="box" id="6"></div>
+      <div class="box" id="7"></div>
+      <div class="box" id="8"></div>
+  </div>
+</div>
+
+
+
+
+  <script src="fingerscript.js"></script>
+  </body>
+
+</html>

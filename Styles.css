@@ -1,0 +1,824 @@
+body {
+  background-color: white;
+  text-transform: uppercase;
+}
+
+.font {
+  font-family: 'Common Pixel', sans-serif;
+  color: lime;
+  position: absolute;
+  font-size: 40px;
+  left: 490px;
+  top: 30px;
+}
+
+.playfont {
+  font-family: 'Common Pixel', sans-serif;
+  color: orange;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 70px;
+  left: 575px;
+  top: 30px;
+}
+
+.playbox1 {
+  font-family: 'Common Pixel', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: red;
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  left: 35px;
+  top: 300px;
+  box-shadow: 0 0 40px 10px red;
+}
+
+.playbox2 {
+  font-family: 'Common Pixel', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: magenta;
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  left: 585px;
+  top: 300px;
+  box-shadow: 0 0 40px 10px magenta;
+}
+
+.playbox3 {
+  font-family: 'Common Pixel', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  background-color: cyan;
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  left: 1135px;
+  top: 300px;
+  box-shadow: 0 0 40px 10px cyan;
+}
+
+/* Game Boxes */
+.gamebox1 {
+  background-color: red;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 30px;
+  top: 60px;
+  box-shadow: 0 0 40px 10px red;
+}
+
+.gamebox2 {
+  background-color: magenta;
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 1250px;
+  top: 60px;
+  box-shadow: 0 0 40px 10px magenta;
+}
+
+.gamebox3 {
+  background-color: cyan;
+  width: 1619px;
+  height: 400px;
+  position: absolute;
+  left: 30px;
+  top: 515px;
+  box-shadow: 0 0 40px 10px cyan;
+}
+
+/* Border Styles */
+.border1 {
+  background-color: lime;
+  width: 10px;
+  height: 945px;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px lime;
+}
+
+.border2 {
+  background-color: lime;
+  width: 1680px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px lime;
+}
+
+.border3 {
+  background-color: lime;
+  width: 10px;
+  height: 945px;
+  position: absolute;
+  left: 1660px;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px lime;
+}
+
+.border4 {
+  background-color: lime;
+  width: 1680px;
+  height: 10px;
+  position: absolute;
+  top: 925px;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px lime;
+}
+
+
+/* Border Styles */
+.snakeborder1 {
+  background-color: red;
+  width: 10px;
+  height: 945px;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px red;
+}
+
+.snakeborder2 {
+  background-color: red;
+  width: 1680px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px red;
+}
+
+.snakeborder3 {
+  background-color: red;
+  width: 10px;
+  height: 945px;
+  position: absolute;
+  left: 1660px;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px red;
+}
+
+.snakeborder4 {
+  background-color: red;
+  width: 1680px;
+  height: 10px;
+  position: absolute;
+  top: 925px;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px red;
+}
+
+/* Border Styles */
+.fingerborder1 {
+  background-color: magenta;
+  width: 10px;
+  height: 945px;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px magenta;
+}
+
+.fingerborder2 {
+  background-color: magenta;
+  width: 1680px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px magenta;
+}
+
+.fingerborder3 {
+  background-color: magenta;
+  width: 10px;
+  height: 945px;
+  position: absolute;
+  left: 1660px;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px magenta;
+}
+
+.fingerborder4 {
+  background-color: magenta;
+  width: 1680px;
+  height: 10px;
+  position: absolute;
+  top: 925px;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px magenta;
+}
+
+/* Border Styles */
+.tenborder1 {
+  background-color: cyan;
+  width: 10px;
+  height: 945px;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px cyan;
+}
+
+.tenborder2 {
+  background-color: cyan;
+  width: 1680px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px cyan;
+}
+
+.tenborder3 {
+  background-color: cyan;
+  width: 10px;
+  height: 945px;
+  position: absolute;
+  left: 1660px;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px cyan;
+}
+
+.tenborder4 {
+  background-color: cyan;
+  width: 1680px;
+  height: 10px;
+  position: absolute;
+  top: 925px;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px cyan;
+}
+
+/* Border Styles */
+.playborder1 {
+  background-color: orange;
+  width: 10px;
+  height: 945px;
+  position: absolute;
+  top: 0;
+  left: 7px;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px orange;
+}
+
+.playborder2 {
+  background-color: orange;
+  width: 1680px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px orange;
+}
+
+.playborder3 {
+  background-color: orange;
+  width: 10px;
+  height: 945px;
+  position: absolute;
+  left: 1660px;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px orange;
+}
+
+.playborder4 {
+  background-color: orange;
+  width: 1680px;
+  height: 10px;
+  position: absolute;
+  top: 925px;
+  left: 0;
+  z-index: 1;
+  box-shadow: 0 0 40px 5px orange;
+}
+
+
+
+
+/* Hyperlinks */
+.hyperlink1 {
+  font-family: 'Common Pixel', sans-serif;
+  background-color: red;
+  text-transform: uppercase;
+  color: #000000;
+  width: 383px;
+  height: 381px;
+  font-size: 75px;
+  position: absolute;
+  left: 39px;
+  top: 70px;
+}
+
+.hyperlink2 {
+  font-family: 'Common Pixel', sans-serif;
+  background-color: magenta;
+  text-transform: uppercase;
+  color: #000000;
+  width: 383px;
+  height: 381px;
+  padding: 16px;
+  font-size: 75px;
+  position: absolute;
+  left: 1258px;
+  top: 70px;
+}
+
+.hyperlink3 {
+  font-family: 'Common Pixel', sans-serif;
+  background-color: cyan;
+  text-transform: uppercase;
+  color: #000000;
+  width: 1603px;
+  height: 383px;
+  padding: 16px;
+  font-size: 100px;
+  position: absolute;
+  left: 38px;
+  top: 525px;
+}
+
+/* Top Bar */
+.top1 {
+  font-family: 'Common Pixel', sans-serif;
+  text-transform: uppercase;
+  width: 330px;
+  height: 100px;
+  background-color: orange;
+  color: #000000;
+  padding: 3px;
+  font-size: 40px;
+  position: absolute;
+  left: 670px;
+  top: 250px;
+  box-shadow: 0 0 40px 5px orange;
+}
+
+.top4 {
+  font-family: 'Common Pixel', sans-serif;
+  text-transform: uppercase;
+  background-color: lime;
+  color: #000000;
+  padding: 3px;
+  font-size: 16px;
+  position: absolute;
+  left: 1607px;
+  top: 7px;
+}
+
+/* Back Button for all hyperlinks */
+.back {
+  font-family: 'Common Pixel', sans-serif;
+  background-color: lime;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 3px;
+  font-size: 16px;
+  position: absolute;
+  left: 25px;
+  top: 7px;
+}
+
+.snakeback {
+  font-family: 'Common Pixel', sans-serif;
+  background-color: red;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 3px;
+  font-size: 16px;
+  position: absolute;
+  left: 25px;
+  top: 7px;
+  z-index: 1;
+}
+
+.fingerback {
+  font-family: 'Common Pixel', sans-serif;
+  background-color: magenta;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 3px;
+  font-size: 16px;
+  position: absolute;
+  left: 25px;
+  top: 7px;
+  z-index: 1;
+}
+
+.tenback {
+  font-family: 'Common Pixel', sans-serif;
+  background-color: cyan;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 3px;
+  font-size: 16px;
+  position: absolute;
+  left: 25px;
+  top: 7px;
+  z-index: 1;
+}
+
+.playback {
+  font-family: 'Common Pixel', sans-serif;
+  background-color: orange;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 3px;
+  font-size: 16px;
+  position: absolute;
+  left: 25px;
+  top: 7px;
+  z-index: 1;
+}
+
+/* Animations
+
+ .block1 {
+   position: absolute;
+   top: -200px;
+   left: 450px;
+   width: 100px;
+   height: 100px;
+   background-color: lime;
+   box-shadow: 0 0 40px 5px lime;
+   animation-name: block1;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   z-index: 1;
+ }
+
+ @keyframes block1 {
+   0%   {left:450px; top:-200px;}
+   100% {left:450px; top:1000px;}
+ }
+
+*/
+
+
+
+/* 2048 */
+html{
+    height: 100%;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "microsoft yahei";
+    background-color: black ;
+}
+
+ .container{
+     margin:auto;
+     width: 452px;
+     height: 100%;
+     overflow: hidden;
+     position: relative;
+ }
+
+ .logo{
+     font-family: 'Common Pixel', sans-serif;
+     width:40%;
+     font-size: 70px;
+     font-weight: bold;
+     color: cyan;
+     float: left;
+     position: relative;
+     left: 740px;
+     top: 100px;
+ }
+
+ .scoreBar{
+     font-family: 'Common Pixel', sans-serif;
+     width: 50%;
+     float:right;
+     color: cyan;
+
+     padding:10px;
+     position: relative;
+     top: 155px;
+     left: -75px;
+     margin-top:10px;
+ }
+.scoreBar:before{
+    content: "";
+    display: block;
+    border-width: 20px;
+    border-color: transparent cyan transparent transparent ;
+    border-style: solid;
+    position: absolute;
+    top:50%;
+    left:-40px;
+    margin-top:-20px;
+}
+ #score{
+     font-size: 50px;
+ }
+
+ #addScore{
+     position: absolute;
+     bottom: 0px;
+     font-size: 30px;
+     color:#999;
+     opacity: .8;
+     top:50px;
+     left: 64px;
+ }
+#addScore.show{
+    opacity: .8;
+    transition:all .5s ease;   -ms-transition:all .5s ease; -moz-transition:all .5s ease; -o-transition:all .5s ease; -webkit-transition:all .5s ease;
+
+}
+#addScore.hide{
+    opacity: 0;
+    transition:all .5s ease;   -ms-transition:all .5s ease; -moz-transition:all .5s ease; -o-transition:all .5s ease; -webkit-transition:all .5s ease;
+}
+
+#stage{
+    background: cyan;
+    cursor: pointer;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top:50%;
+    left:600px;
+    margin-top: -200px;
+    box-shadow: 0 0 40px 5px cyan;
+    z-index: 1;
+}
+
+#undo{
+    position: relative;
+    z-index: 990;
+}
+
+.row0{
+    top:10px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+.row1{
+    top:120px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+.row2{
+    top:230px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+.row3{
+    top:340px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+
+.cell0{
+    left:10px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+.cell1{
+    left:120px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+.cell2{
+    left:230px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+.cell3{
+    left:340px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+
+span{
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+    background: #fff;
+    font-size: 43px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+div{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+
+}
+
+.num2{
+    font-family: 'Common Pixel', sans-serif;
+    background: black;
+    color:#D8D8D8;
+    font-size: 100px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+    animation: myfirst .5s;
+    -moz-animation: myfirst .5s;	/* Firefox */
+    -webkit-animation: myfirst .5s;	/* Safari or Chrome or opera */
+}
+
+.num4{
+    font-family: 'Common Pixel', sans-serif;
+    background: black;
+    color: #00E2D8;
+    font-size: 100px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+    animation: myfirst .5s;
+    -moz-animation: myfirst .5s;	/* Firefox */
+    -webkit-animation: myfirst .5s;	/* Safari or Chrome */
+}
+
+.num8{
+    font-family: 'Common Pixel', sans-serif;
+    background: black;
+    color:#00BCD2;
+    font-size: 100px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+    animation: myfirst .5s;
+}
+
+.num16{
+    font-family: 'Common Pixel', sans-serif;
+    background: #00ECFF;
+    color:#fff;
+    font-size: 80px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+    animation: myfirst .5s;
+}
+
+.num32{
+    font-family: 'Common Pixel', sans-serif;
+    background: #00BCD2;
+    color: #fdfdfd;
+    font-size: 80px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+
+.num64{
+    font-family: 'Common Pixel', sans-serif;
+    background: #0090E2;
+    color:#fff;
+    font-size: 80px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+
+.num128{
+    font-family: 'Common Pixel', sans-serif;
+    background: #002E56;
+    color: cyan;
+    font-size: 52px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+
+.num256{
+    font-family: 'Common Pixel', sans-serif;
+    background: #06008D;
+    color:white;
+    font-size: 52px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+
+.num512{
+    font-family: 'Common Pixel', sans-serif;
+    background: #010031;
+    color: #00FFFF;
+    font-size: 52px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+
+.num1024{
+    font-family: 'Common Pixel', sans-serif;
+    background: #00FFFF;
+    color: #f6f7ff;
+    font-size: 52px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+
+.num2048{
+    font-family: 'Common Pixel', sans-serif;
+    background: #000000;
+    color: cyan;
+    font-size: 52px;
+
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+
+.num4096{
+    font-family: 'Common Pixel', sans-serif;
+    background: #000000;
+    color: red;
+    font-size: 52px;
+    transition:all .2s ease;   -ms-transition:all .2s ease; -moz-transition:all .2s ease; -o-transition:all .2s ease; -webkit-transition:all .2s ease;
+}
+
+@keyframes myfirst
+{
+    0%{opacity: 0;transform:scale(0)}
+    50% {opacity: .5;transform:scale(1.5)}
+    100%{opacity: 1;transform:scale(1)}
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+    0%{opacity: 0;-moz-transform:scale(0)}
+    50% {opacity: .5;-moz-transform:scale(1.5)}
+    100%{opacity: 1;-moz-transform:scale(1)}
+}
+@-webkit-keyframes myfirst /* Safari or Chrome */
+{
+    0%{opacity: 0;-webkit-transform:scale(0)}
+    50% {opacity: .5;-webkit-transform:scale(1.5)}
+    100%{opacity: 1;-webkit-transform:scale(1)}
+}
+
+.restart {
+  font-family: 'Common Pixel', sans-serif;
+  background-color: lime;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 4px;
+  font-size: 50px;
+  position: absolute;
+  left: 680px;
+  top: 750px;
+  box-shadow: 0 0 40px 5px lime;
+}
+
+.snakerestart {
+  font-family: 'Common Pixel', sans-serif;
+  background-color: red;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 4px;
+  font-size: 50px;
+  position: absolute;
+  left: 680px;
+  top: 750px;
+  box-shadow: 0 0 40px 5px red;
+}
+
+.tenrestart {
+  font-family: 'Common Pixel', sans-serif;
+  background-color: cyan;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 4px;
+  font-size: 50px;
+  position: absolute;
+  left: 665px;
+  top: 750px;
+  box-shadow: 0 0 40px 5px cyan;
+}
+
+
+  /* Testing Stuff */
+
+  .testbutton {
+    font-family: 'Common Pixel', sans-serif;
+    background-color: lime;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 3px;
+    font-size: 16px;
+    position: absolute;
+    left: 500px;
+    top: 400px;
+  }
